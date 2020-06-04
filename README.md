@@ -14,6 +14,10 @@ To this end, we build the DocBank dataset, a  document-level  benchmark with fin
 DocBank is released under the [Attribution-NonCommercial-NoDerivs License](https://creativecommons.org/licenses/by-nc-nd/4.0/). You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may not use the material for commercial purposes. If you remix, transform, or build upon the material, you may not distribute the modified material.
 
 ## Paper and Citation
+### DocBank: A Benchmark Dataset for Document Layout Analysis
+
+Minghao Li, Yiheng Xu, Lei Cui, Shaohan Huang, Furu Wei, Zhoujun Li, Ming Zhou
+
 https://arxiv.org/abs/2006.01038
 ```
 @misc{li2020docbank,
