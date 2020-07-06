@@ -92,6 +92,8 @@ DocBank is released under the [Attribution-NonCommercial-NoDerivs License](https
 
 ## Get Data
 
+**We provide [100 samples](DocBank_samples/README.md) as a preview.**
+
 Please fill this [form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRw1hSTX2waZIoerSk1J6CyNUQjA3QlBVUDYxMTY4NFpVR1UxNVRRU0ZIUS4u). If the review is approved, the download link will be sent to your email address. 
 
 The link will be reviewed and sent **the next Monday after the application**
