@@ -2,7 +2,7 @@
 
 **\*\*\*\*\* DocBank is a natural extension of the TableBank ([repo](https://github.com/doc-analysis/TableBank), [paper](https://arxiv.org/abs/1903.01949)) dataset \*\*\*\*\***
 
-**\*\*\*\*\* LayoutLM ([repo](https://github.com/doc-analysis/DocBank), [paper](https://arxiv.org/abs/2006.01038)) is an effective pre-training method of text and layout and archives the SOTA result on DocBank \*\*\*\*\***
+**\*\*\*\*\* LayoutLM ([repo](https://github.com/microsoft/unilm/tree/master/layoutlm), [paper](https://arxiv.org/abs/1912.13318)) is an effective pre-training method of text and layout and archives the SOTA result on DocBank \*\*\*\*\***
 
 
 DocBank is a new large-scale dataset that is constructed using a weak supervision approach. It enables models to integrate both the textual and layout information for downstream tasks. The current DocBank dataset totally includes 500K document pages.
