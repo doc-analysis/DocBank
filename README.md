@@ -63,7 +63,7 @@ In this case, we proposed a new metric, especially for text-based document layou
 <img src='Metrics.png' width=500>
 
 ### Settings
-Our baselines of BERT and RoBERTa are built upon the HuggingFace's Transformers while the LayoutLM baselines are implemented with the codebase in [LayoutLM's official repository](https://aka.ms/layoutlm). We used 8 V100 GPUs with a batch size of 10 per GPU. It takes 5 hours to fine-tune 1 epoch on the 400K document pages. We used the BERT and RoBERTa tokenizers to tokenize the training samples and optimized the model with AdamW. The initial learning rate of the optimizer is 5*10^{-5}. We split the data into a max block size of N=512.
+Our baselines of BERT and RoBERTa are built upon the HuggingFace's Transformers while the LayoutLM baselines are implemented with the codebase in [LayoutLM's official repository](https://aka.ms/layoutlm). We used 8 V100 GPUs with a batch size of 10 per GPU. It takes 5 hours to fine-tune 1 epoch on the 400K document pages. We used the BERT and RoBERTa tokenizers to tokenize the training samples and optimized the model with AdamW. The initial learning rate of the optimizer is 5e-5. We split the data into a max block size of N=512.
 
 ### Results
 
