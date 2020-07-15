@@ -90,6 +90,10 @@ We evaluate six models on the test set of DocBank. We notice that the LayoutLM g
 ## License
 DocBank is released under the [Attribution-NonCommercial-NoDerivs License](https://creativecommons.org/licenses/by-nc-nd/4.0/). You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may not use the material for commercial purposes. If you remix, transform, or build upon the material, you may not distribute the modified material.
 
+## Model Zoo
+
+The trained models available for download in the [DocBank Model Zoo](MODEL_ZOO.md).
+
 ## Get Data
 
 **We provide [100 samples](DocBank_samples/README.md) as a preview.**
