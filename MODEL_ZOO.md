@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The models trained in our baseline are listed below. All models were trained 1 epochs under their respective backbones using the pretrained model provided by [Transformers](https://github.com/huggingface/transformers#model-architectures) and [LayoutLM](https://github.com/microsoft/unilm/tree/master/layoutlm#pre-trained-model).
+The models trained in our baseline are listed below. All models were trained 1 epochs under their respective backbones using the pretrained models provided by [Transformers](https://github.com/huggingface/transformers#model-architectures) and [LayoutLM](https://github.com/microsoft/unilm/tree/master/layoutlm#pre-trained-model).
 
 
 ## License
