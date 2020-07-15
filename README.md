@@ -92,7 +92,7 @@ DocBank is released under the [Attribution-NonCommercial-NoDerivs License](https
 
 ## Model Zoo
 
-The trained models available for download in the [DocBank Model Zoo](MODEL_ZOO.md).
+The trained models are available for download in the [DocBank Model Zoo](MODEL_ZOO.md).
 
 ## Get Data
 
