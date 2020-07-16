@@ -90,9 +90,17 @@ We evaluate six models on the test set of DocBank. We notice that the LayoutLM g
 ## License
 DocBank is released under the [Attribution-NonCommercial-NoDerivs License](https://creativecommons.org/licenses/by-nc-nd/4.0/). You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may not use the material for commercial purposes. If you remix, transform, or build upon the material, you may not distribute the modified material.
 
-## Model Zoo
+## Model Zoo and Scripts
 
 The trained models are available for download in the [DocBank Model Zoo](MODEL_ZOO.md).
+
+We provide a script to convert PDF files to the DocBank format data. You can run the PDF processing script pdf_process.py in the scripts directory. You may need to install some dependencies of this script through the pip package installer.
+
+~~~bash
+cd scripts
+python pdf_process.py   --data_dir /path/to/pdf/directory \
+                        --output_dir /path/to/data/output/directory
+~~~
 
 ## Get Data
 
