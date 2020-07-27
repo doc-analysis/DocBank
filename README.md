@@ -110,6 +110,7 @@ Please fill this [form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5
 
 The link will be reviewed and sent **the next Monday after the application**
 
+We provide the index files of training, validation, and test sets in the `indexed_files` directory.
 
 ## Paper and Citation
 ### DocBank: A Benchmark Dataset for Document Layout Analysis
