@@ -90,7 +90,7 @@ We evaluate six models on the test set of DocBank. We notice that the LayoutLM g
 ## License
 DocBank is released under the [Attribution-NonCommercial-NoDerivs License](https://creativecommons.org/licenses/by-nc-nd/4.0/). You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may not use the material for commercial purposes. If you remix, transform, or build upon the material, you may not distribute the modified material.
 
-## Model Zoo and Scripts
+## **Model Zoo and Scripts**
 
 The trained models are available for download in the [DocBank Model Zoo](MODEL_ZOO.md).
 
@@ -102,17 +102,18 @@ python pdf_process.py   --data_dir /path/to/pdf/directory \
                         --output_dir /path/to/data/output/directory
 ~~~
 
-## Get Data
+## **Get Data**
 
-**We provide [100 samples](DocBank_samples/README.md) as a preview.**
+We provide [100 samples](DocBank_samples/README.md) as a preview.
 
-Please fill this [form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRw1hSTX2waZIoerSk1J6CyNUQjA3QlBVUDYxMTY4NFpVR1UxNVRRU0ZIUS4u). If the review is approved, the download link will be sent to your email address. 
+<!-- Please fill this [form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRw1hSTX2waZIoerSk1J6CyNUQjA3QlBVUDYxMTY4NFpVR1UxNVRRU0ZIUS4u). If the review is approved, the download link will be sent to your email address. 
 
-The link will be reviewed and sent **the next Monday after the application**
+The link will be reviewed and sent **the next Monday after the application** -->
+The annotations and original document pictures of the DocBank dataset **can be downloaded from the [DocBank dataset homepage](https://doc-analysis.github.io/docbank-page/index.html)**.
 
 We provide the index files of training, validation, and test sets in the `indexed_files` directory.
 
-## Paper and Citation
+## **Paper and Citation**
 ### DocBank: A Benchmark Dataset for Document Layout Analysis
 
 Minghao Li, Yiheng Xu, Lei Cui, Shaohan Huang, Furu Wei, Zhoujun Li, Ming Zhou
