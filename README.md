@@ -104,14 +104,18 @@ python pdf_process.py   --data_dir /path/to/pdf/directory \
 
 ## **Get Data**
 
-We provide [100 samples](DocBank_samples/README.md) as a preview.
+**\*\*Please DO NOT re-distribute our data.\*\***
+
+If you use the corpus in published work, please cite it referring to the "Paper and Citation" Section.
+
+We provide [100 samples](DocBank_samples/README.md) for previewing as well as the index files of training, validation, and test sets in the `indexed_files` directory.
 
 <!-- Please fill this [form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRw1hSTX2waZIoerSk1J6CyNUQjA3QlBVUDYxMTY4NFpVR1UxNVRRU0ZIUS4u). If the review is approved, the download link will be sent to your email address. 
 
 The link will be reviewed and sent **the next Monday after the application** -->
-The annotations and original document pictures of the DocBank dataset **can be downloaded from the [DocBank dataset homepage](https://doc-analysis.github.io/docbank-page/index.html)**.
+The annotations and original document pictures of the DocBank dataset **can be download from the [DocBank dataset homepage](https://doc-analysis.github.io/docbank-page/index.html)**.
 
-We provide the index files of training, validation, and test sets in the `indexed_files` directory.
+
 
 ## **Paper and Citation**
 ### DocBank: A Benchmark Dataset for Document Layout Analysis
