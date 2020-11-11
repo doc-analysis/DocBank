@@ -1,5 +1,7 @@
 # DocBank
 
+**\*\*\*\*\* We provide a dataset loader named [DocBankLoader](https://github.com/doc-analysis/DocBankLoader) and it can also convert DocBank to the Object Detection models' format \*\*\*\*\***
+
 **\*\*\*\*\* DocBank is a natural extension of the TableBank ([repo](https://github.com/doc-analysis/TableBank), [paper](https://arxiv.org/abs/1903.01949)) dataset \*\*\*\*\***
 
 **\*\*\*\*\* LayoutLM ([repo](https://github.com/microsoft/unilm/tree/master/layoutlm), [paper](https://arxiv.org/abs/1912.13318)) is an effective pre-training method of text and layout and archives the SOTA result on DocBank \*\*\*\*\***
