@@ -1,4 +1,5 @@
 # DocBank
+**\*\*\*\*\* Our paper has been accepted in [COLING2020](https://coling2020.org/pages/accepted_papers_main_conference) and [the Camera-ready version paper](https://arxiv.org/abs/2006.01038) has been updated on arXiv.com \*\*\*\*\***
 
 **\*\*\*\*\* We provide a dataset loader named [DocBankLoader](https://github.com/doc-analysis/DocBankLoader) and it can also convert DocBank to the Object Detection models' format \*\*\*\*\***
 
