@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The models trained in our baseline are listed below. All models were trained 1 epochs under their respective backbones using the pretrained models provided by [Transformers](https://github.com/huggingface/transformers#model-architectures) and [LayoutLM](https://github.com/microsoft/unilm/tree/master/layoutlm#pre-trained-model).
+The models trained in our baseline are listed below. All models were trained 1 epoch under their respective backbones using the pretrained models provided by [Transformers](https://github.com/huggingface/transformers#model-architectures), [LayoutLM](https://github.com/microsoft/unilm/tree/master/layoutlm#pre-trained-model) and [detectron2](https://github.com/facebookresearch/detectron2).
 
 
 ## License
@@ -30,3 +30,6 @@ The models trained on DocBank are available in the format used by Pytorch.
 | 3 |  RoBERTa | RoBERTa-large  | [OneDrive](https://buaaeducn-my.sharepoint.com/:u:/g/personal/liminghao1630_buaa_edu_cn/EXNpG7IbGdZEl8oB7cGy-jIBK2w7zq-ypJ3Qi3YAJ4BvqA?e=gPnGGE) | 1.2GB |
 | 4 | LayoutLM | LayoutLM-base  | [OneDrive](https://buaaeducn-my.sharepoint.com/:u:/g/personal/liminghao1630_buaa_edu_cn/EYypofKMw_9Bq4TZ21ILqe4BpsXTuS-zEbCXK1RFvvYsaQ?e=gaKjIi) | 398MB |
 | 5 | LayoutLM | LayoutLM-large | [OneDrive](https://buaaeducn-my.sharepoint.com/:u:/g/personal/liminghao1630_buaa_edu_cn/EROwnJ-ZIMlJjktjo80QeYQB0u_eJ9daj8MrzDZg7XiPeQ?e=esdku6) | 1.2GB |
+| 6 | X101 | ResNeXt-101 | [OneDrive](https://buaaeducn-my.sharepoint.com/:u:/g/personal/liminghao1630_buaa_edu_cn/EehPK3af4bxEi7sXbym557cBLAixlZu-UU222RlLRT0OSQ?e=xECtsV) | 747MB |
+
+
