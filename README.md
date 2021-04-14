@@ -3,6 +3,7 @@
 DocBank is a new large-scale dataset that is constructed using a weak supervision approach. It enables models to integrate both the textual and layout information for downstream tasks. The current DocBank dataset totally includes 500K document pages, where 400K for training, 50K for validation and 50K for testing.
 
 ## News
+- **The MSCOCO Format Annotation can be download from the [DocBank dataset homepage](https://doc-analysis.github.io/docbank-page/index.html).**
 - **The ResNeXt-101 model has been added to the [Model Zoo](MODEL_ZOO.md).**
 - **Our paper has been accepted in [COLING2020](https://coling2020.org/pages/accepted_papers_main_conference) and [the Camera-ready version paper](https://arxiv.org/abs/2006.01038) has been updated on arXiv.com**
 - **We provide a dataset loader named [DocBankLoader](https://github.com/doc-analysis/DocBankLoader) and it can also convert DocBank to the Object Detection models' format**
