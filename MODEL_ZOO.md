@@ -5,10 +5,6 @@
 The models trained in our baseline are listed below. All models were trained 1 epoch under their respective backbones using the pretrained models provided by [Transformers](https://github.com/huggingface/transformers#model-architectures), [LayoutLM](https://github.com/microsoft/unilm/tree/master/layoutlm#pre-trained-model) and [detectron2](https://github.com/facebookresearch/detectron2).
 
 
-## License
-
-All models available for download through this document are licensed under the [Attribution-NonCommercial-NoDerivs License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
-
 ## Models
 
 The models trained on DocBank are available in the format used by Pytorch. 
