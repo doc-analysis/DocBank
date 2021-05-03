@@ -3,6 +3,7 @@
 DocBank is a new large-scale dataset that is constructed using a weak supervision approach. It enables models to integrate both the textual and layout information for downstream tasks. The current DocBank dataset totally includes 500K document pages, where 400K for training, 50K for validation and 50K for testing.
 
 ## News
+- **We update the license to Apache-2.0.**
 - **The MSCOCO Format Annotation can be download from the [DocBank dataset homepage](https://doc-analysis.github.io/docbank-page/index.html).**
 - **The ResNeXt-101 model has been added to the [Model Zoo](MODEL_ZOO.md).**
 - **Our paper has been accepted in [COLING2020](https://coling2020.org/pages/accepted_papers_main_conference) and [the Camera-ready version paper](https://arxiv.org/abs/2006.01038) has been updated on arXiv.com**
@@ -88,8 +89,6 @@ Our baselines of BERT and RoBERTa are built upon the HuggingFace's Transformers 
 We evaluate six models on the test set of DocBank. We notice that the LayoutLM gets the highest scores on the \{abstract, author, caption, equation, figure, footer, list, paragraph, section, table, title\} labels. The RoBERTa model gets the best performance on the "reference" label but the gap with the LayoutLM is very small. This indicates that the LayoutLM architecture is significantly better than the BERT and RoBERTa architecture in the document layout analysis task. 
 
 We also evaluate the ResNeXt-101 model and two ensemble models combining ResNeXt-101 and LayoutLM. The output of the ResNeXt-101 model is the bounding boxes of semantic structures. To unify the outputs of them, we mark the tokens inside each bounding box by the label of the corresponding bounding box. After that, we calculate the metrics following the above equation.
-## License
-DocBank is released under the [Attribution-NonCommercial-NoDerivs License](https://creativecommons.org/licenses/by-nc-nd/4.0/). You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may not use the material for commercial purposes. If you remix, transform, or build upon the material, you may not distribute the modified material.
 
 ## **Model Zoo and Scripts**
 
