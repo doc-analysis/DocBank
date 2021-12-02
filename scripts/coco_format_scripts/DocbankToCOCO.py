@@ -42,15 +42,11 @@ class COCOData:
        i=0
        # Fetch each text file from the folders
        for path in tqdm(Path(src_path).rglob('*.txt'), desc="Loading Source Files"):
-            # if i == 100000:
-            #     return
-            # i+=1
             # Open the file and read the content in JSON datatype
             file = pd.read_table(path, header=None, names=["token", "x0","y0", "x1", "y1", "R", "G","B", "name", "label"])
             
             # Prepare string for coco format json file
             coco_file_path = str(path).replace(".txt", ".json")
-            # coco_file_path = coco_file_path.replace("DocBank", "DocBank-coco")
             coco_file_path = coco_file_path.replace(src_path, dest_path)
 
             self.src_file_path.append(str(path))
@@ -130,7 +126,6 @@ class COCOData:
             int(object_height[0])
         ]
         object_dict["area"] = int(object_width[0] * object_height[0]) 
-        # self.set_caption_properties(object_dict, doc_object)
         
         return object_dict
     
@@ -147,8 +142,6 @@ class COCOData:
             # Fetch each JSON file present in the folders
             for i in tqdm(range(len(self.src_file_path)), desc="Convering Source JSON to COCO JSON"):
                 json_dict = self.create_dict_layout()
-                # json_dict["info"]["contributor"] = "PMC Open Access Subset" if (re.search("pmc", self.src_file_path[i]))  else "arXiv"
-                # json_dict["info"]["description"] = "Exported from PMC Open Access Subset" if (re.search("pmc", self.src_file_path[i]))  else "Exported from arXiv Open-access Archive"
                 image_dict = self.set_image_properties(os.path.split(self.coco_file_path[i])[1].replace(".json", ".jpg"), image_id)
                 
                 # Each Image present in the file is fetched and added to a cocoData object
@@ -162,10 +155,6 @@ class COCOData:
                 # Increment the Image ID for the next Image in the file
                 image_id+=1
                 # Extract Image width and height if annotations exist. There has to be atleast one annotation for an image to have the dimension attributes.
-                # if len(content) > 0:
-                #     image_dict["width"] = content[0]["page_width"]
-                #     image_dict["height"] = content[0]["page_height"]
-                # # Add the image properties to the Images key in COCO
                 json_dict["images"].append(image_dict)
                 self.coco_dictionary.append(json_dict)
         except:
