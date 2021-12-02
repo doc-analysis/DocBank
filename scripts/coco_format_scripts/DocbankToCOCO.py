@@ -50,7 +50,7 @@ class COCOData:
             
             # Prepare string for coco format json file
             coco_file_path = str(path).replace(".txt", ".json")
-            coco_file_path = coco_file_path.replace("DocBank", "DocBank-coco")
+            # coco_file_path = coco_file_path.replace("DocBank", "DocBank-coco")
             coco_file_path = coco_file_path.replace(src_path, dest_path)
 
             self.src_file_path.append(str(path))
