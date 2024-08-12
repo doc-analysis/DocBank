@@ -3,6 +3,7 @@
 DocBank is a new large-scale dataset that is constructed using a weak supervision approach. It enables models to integrate both the textual and layout information for downstream tasks. The current DocBank dataset totally includes 500K document pages, where 400K for training, 50K for validation and 50K for testing.
 
 ## News
+- **We have uploaded the datasets on [HuggingFace](https://huggingface.co/datasets/liminghao1630/DocBank).**
 - **We update the license to Apache-2.0.**
 - **The MSCOCO Format Annotation can be download from the [DocBank dataset homepage](https://doc-analysis.github.io/docbank-page/index.html).**
 - **The ResNeXt-101 model has been added to the [Model Zoo](MODEL_ZOO.md).**
@@ -110,12 +111,9 @@ If you use the corpus in published work, please cite it referring to the "Paper 
 
 We provide [100 samples](DocBank_samples/README.md) for previewing as well as the index files of training, validation, and test sets in the `indexed_files` directory.
 
-<!-- Please fill this [form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRw1hSTX2waZIoerSk1J6CyNUQjA3QlBVUDYxMTY4NFpVR1UxNVRRU0ZIUS4u). If the review is approved, the download link will be sent to your email address. 
-
-The link will be reviewed and sent **the next Monday after the application** -->
 In this work, we normalize all the bounding boxes using the size of the PDF pages and scale each value into a range of 0-1000 to fit various layouts of documents.
 
-The annotations and original document pictures of the DocBank dataset **can be download from the [DocBank dataset homepage](https://doc-analysis.github.io/docbank-page/index.html)**.
+The annotations and original document pictures of the DocBank dataset **can be download from the [HuggingFace](https://huggingface.co/datasets/liminghao1630/DocBank)**.
 
 
 
