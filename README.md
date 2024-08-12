@@ -113,7 +113,7 @@ We provide [100 samples](DocBank_samples/README.md) for previewing as well as th
 
 In this work, we normalize all the bounding boxes using the size of the PDF pages and scale each value into a range of 0-1000 to fit various layouts of documents.
 
-The annotations and original document pictures of the DocBank dataset **can be download from the [HuggingFace](https://huggingface.co/datasets/liminghao1630/DocBank)**.
+The annotations and original document pictures of the DocBank dataset **can be download from [HuggingFace](https://huggingface.co/datasets/liminghao1630/DocBank)**.
 
 
 
